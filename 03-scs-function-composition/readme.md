@@ -3,6 +3,10 @@
 
 goto: http://localhost:15672/#/ and click on `Exchange: uppercase-in` and publish messages from there
 
+<img width="815" alt="Screenshot 2023-07-30 at 11 39 41 PM" src="https://github.com/javaHelper/spring-cloud-stream-self-learning/assets/54174687/cac4be19-7564-42a4-a8d9-7d1bbf932ebc">
+
+You can see output below:
+
 ```
 2023-07-30 23:38:23.780  INFO 45652 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2023-07-30 23:38:23.797  INFO 45652 --- [           main] com.example.demo.Application             : Started Application in 4.371 seconds (JVM running for 5.563)
@@ -14,7 +18,6 @@ Echo: HELLO, HOW ARE YOU DOING ?
 
 ```
 
-<img width="815" alt="Screenshot 2023-07-30 at 11 39 41 PM" src="https://github.com/javaHelper/spring-cloud-stream-self-learning/assets/54174687/cac4be19-7564-42a4-a8d9-7d1bbf932ebc">
 
 ```
 curl --location 'http://localhost:8080/uppercase' \
