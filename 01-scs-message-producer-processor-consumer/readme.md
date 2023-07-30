@@ -120,3 +120,8 @@ spring:
     function:
       definition: generateOrder;processOrder;readOrder
 ```
+
+<img width="1399" alt="Screenshot 2023-07-30 at 10 11 52 PM" src="https://github.com/javaHelper/spring-cloud-stream-self-learning/assets/54174687/f5edd249-359b-4a52-9433-8f8c7287a38c">
+
+<img width="812" alt="Screenshot 2023-07-30 at 10 12 06 PM" src="https://github.com/javaHelper/spring-cloud-stream-self-learning/assets/54174687/e47a740f-45d6-4c83-bdea-4adacbd4595e">
+
