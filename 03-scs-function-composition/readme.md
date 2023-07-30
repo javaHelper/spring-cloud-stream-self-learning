@@ -1,6 +1,8 @@
 # Spring Cloud Stream - Function Definition
 
 
+goto: http://localhost:15672/#/ and click on `Exchange: uppercase-in` and publish messages from there
+
 
 
 ```
