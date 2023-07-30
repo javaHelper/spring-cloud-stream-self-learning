@@ -1,0 +1,30 @@
+spring:
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+    port: 5672
+    
+    
+  cloud:
+    stream:
+      bindings:
+        generateOrder-out-0:
+          destination: ordertopic
+          content-type: application/json
+          
+        processOrder-in-0: 
+          destination: ordertopic
+          content-type: application/json  
+        
+        processOrder-out-0: 
+          destination: orderprocessor
+          content-type: application/json  
+        
+        readOrder-in-0: 
+          destination: orderprocessor
+          content-type: application/json
+
+          
+    function:
+      definition: generateOrder;processOrder;readOrder
