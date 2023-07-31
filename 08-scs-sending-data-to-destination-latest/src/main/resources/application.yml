@@ -1,0 +1,10 @@
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        readOrder-in-0:
+          destination: myDestination
+      outputBindings: myDestination
+    function:
+      definition: readOrder
